@@ -35,9 +35,16 @@ class OpenAI:
         completion = openai.Completion.create(
             engine=self.model_engine,
             prompt=input("Ask Text-Davinci-003:\n"),
+            # Max tokens can be changed
+            # 1000 Token equals 750 words
             max_tokens=800,
+            # n is numer of responses
             n=1,
             stop=None,
+            # Variability of answers
+            # Higher values like 0.8 will make the output more random, 
+            # while lower values like 0.2 will make it more focused and deterministic.
+            # 0 - 2 Range
             temperature=0.7,
         )
 
