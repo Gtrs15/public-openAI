@@ -16,4 +16,7 @@ To use the program, simply run the ask.py file as described above. The program w
 
 
 # Acknowledgments
-This project was inspired by the OpenAI API and the Text-Davinci-003 engine. Thanks to the developers of these tools for making this project possible.
+This project was inspired by the OpenAI API. Thanks to the developers of these tools for making this project possible.
+
+# Readme
+### This readme was created using ChatGPT
